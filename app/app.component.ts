@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'my-app',
+    selector: 'pickomino-app',
     template: `
         <h1>{{title}}</h1>
-        <car-parts></car-parts>`
+        <game-body></game-body>`
 })
 
 export class AppComponent { 
-    title = 'Ultra Racing';
+    title = 'Pickomino';
 }

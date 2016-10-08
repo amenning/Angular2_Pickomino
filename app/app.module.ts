@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent }   from './app.component';
-import { CarPartsComponent }   from './car-parts.component';
+import { GameBodyComponent }   from './game-body.component';
 import { RacingDataService } from './racing-data.service'
 
 @NgModule({
@@ -15,7 +15,7 @@ import { RacingDataService } from './racing-data.service'
     ],
     declarations: [ 
         AppComponent,
-        CarPartsComponent
+        GameBodyComponent
     ],
     providers:    [
         RacingDataService
