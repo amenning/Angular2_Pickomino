@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent }   from './app.component';
 import { GameBodyComponent }   from './game-body.component';
-import { RacingDataService } from './racing-data.service'
+import { GameLoginComponent }   from './game-login.component';
 
 @NgModule({
     imports:      [ 
@@ -15,13 +15,14 @@ import { RacingDataService } from './racing-data.service'
     ],
     declarations: [ 
         AppComponent,
-        GameBodyComponent
+        GameBodyComponent,
+        GameLoginComponent
     ],
     providers:    [
-        RacingDataService
+        
     ],
     bootstrap:    [ 
-        AppComponent 
+        AppComponent
     ]
 })
 
