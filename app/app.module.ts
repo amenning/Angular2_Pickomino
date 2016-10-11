@@ -18,8 +18,7 @@ import { GameLoginComponent }   from './game-login.component';
         GameBodyComponent,
         GameLoginComponent
     ],
-    providers:    [
-        
+    providers:    [        
     ],
     bootstrap:    [ 
         AppComponent
