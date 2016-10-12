@@ -1,8 +1,8 @@
 <div class='container-body'>
 	<!-- If not logged in, show login area here -->
-	<game-login></game-login>
+	<game-login *ngIf="gameLogin"></game-login>
 	<!-- If not logged in, show registration area here -->
-	<!-- game-registration *ngIf="gameRegistration"></game-registration -- >
+	<game-registration *ngIf="gameRegistration"></game-registration>
 	<!-- If logged in, show game selection here -->
 	<!-- game-setup *ngIf="gameSetup"></game-setup -->
 	<!-- If logged in and game selected, show game board here -->

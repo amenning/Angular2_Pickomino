@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 
 export class GameBodyComponent { 
 	gameLogin = true;
+    gameRegistration = true;
 
 	ngOnInit () {}
 }

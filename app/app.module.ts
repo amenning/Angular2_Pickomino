@@ -6,6 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent }   from './app.component';
 import { GameBodyComponent }   from './game-body.component';
 import { GameLoginComponent }   from './game-login.component';
+import { GameRegistrationComponent }   from './game-registration.component';
 
 @NgModule({
     imports:      [ 
@@ -16,7 +17,8 @@ import { GameLoginComponent }   from './game-login.component';
     declarations: [ 
         AppComponent,
         GameBodyComponent,
-        GameLoginComponent
+        GameLoginComponent,
+        GameRegistrationComponent
     ],
     providers:    [        
     ],
