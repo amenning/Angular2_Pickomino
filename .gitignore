@@ -1,3 +1,6 @@
 # Ignore all js and js.map created from ts
 app/*.js
 app/*.js.map
+
+# Ignore npm logs
+npm-debug.log
