@@ -8,6 +8,7 @@ import { GameBodyComponent }   from './game-body.component';
 import { GameLoginComponent }   from './game-login.component';
 import { GameRegistrationComponent }   from './game-registration.component';
 import { GameSetupComponent }   from './game-setup.component';
+import { GameBoardComponent }   from './game-board.component';
 
 @NgModule({
     imports:      [ 
@@ -20,7 +21,8 @@ import { GameSetupComponent }   from './game-setup.component';
         GameBodyComponent,
         GameLoginComponent,
         GameRegistrationComponent,
-        GameSetupComponent
+        GameSetupComponent,
+        GameBoardComponent
     ],
     providers:    [        
     ],

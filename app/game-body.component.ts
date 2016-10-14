@@ -10,6 +10,7 @@ export class GameBodyComponent {
 	gameLogin = true;
     gameRegistration = true;
     gameSetup = true;
+    gameActive = true;
 
 	ngOnInit () {}
 }
