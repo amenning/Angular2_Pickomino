@@ -10,6 +10,7 @@ import { GameRegistrationComponent }   from './game-registration.component';
 import { GameSetupComponent }   from './game-setup.component';
 import { GameBoardComponent }   from './game-board.component';
 import { GameGrillWormsComponent }   from './game-grill-worms.component';
+import { GamePlayerOptionsComponent }   from './game-player-options.component';
 
 @NgModule({
     imports:      [ 
@@ -24,7 +25,8 @@ import { GameGrillWormsComponent }   from './game-grill-worms.component';
         GameRegistrationComponent,
         GameSetupComponent,
         GameBoardComponent,
-        GameGrillWormsComponent
+        GameGrillWormsComponent,
+        GamePlayerOptionsComponent
     ],
     providers:    [        
     ],
