@@ -1,5 +1,6 @@
-{% verbatim %}
-<div ng-controller="PlayerWormsLayoutController as layoutCtrl" ng-class="{'row-fluid twoPlayerContainer' : layoutCtrl.gameStatus.numPlayers===2 }">
+Game Player Worms
+<!-- {% verbatim %} -->
+<!-- div ng-controller="PlayerWormsLayoutController as layoutCtrl" ng-class="{'row-fluid twoPlayerContainer' : layoutCtrl.gameStatus.numPlayers===2 }">
 	<div ng-controller="PlayerOneWormsController as playerOneWorms" ng-class="{ 'twoPlayerWidth' : layoutCtrl.gameStatus.numPlayers===2 }">
 		<div class = 'titles-box' ng-class="{ 'activePlayerHighlight' : layoutCtrl.gameStatus.numPlayers===2 && layoutCtrl.gameStatus.activePlayer===0 }">
 			<span class = 'titles' ng-hide="layoutCtrl.gameStatus.numPlayers===2">Player's Worms ( <ng-pluralize count=playerOneWorms.status.total when="{'1': '1 Worm', 'other': '{} Worms'}"></ng-pluralize> )</span>
@@ -24,5 +25,5 @@
 			</div>
 		</div>
 	</div>
-</div>
-{% endverbatim %}
+</div -->
+<!-- {% endverbatim %} -->

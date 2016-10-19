@@ -13,6 +13,7 @@ import { GameGrillWormsComponent }   from './game-grill-worms.component';
 import { GamePlayerOptionsComponent }   from './game-player-options.component';
 import { GameActiveDiceComponent }   from './game-active-dice.component';
 import { GameFrozenDiceComponent }   from './game-frozen-dice.component';
+import { GamePlayerWormsComponent }   from './game-player-worms.component';
 
 @NgModule({
     imports:      [ 
@@ -30,7 +31,8 @@ import { GameFrozenDiceComponent }   from './game-frozen-dice.component';
         GameGrillWormsComponent,
         GamePlayerOptionsComponent,
         GameActiveDiceComponent,
-        GameFrozenDiceComponent
+        GameFrozenDiceComponent,
+        GamePlayerWormsComponent
     ],
     providers:    [        
     ],
