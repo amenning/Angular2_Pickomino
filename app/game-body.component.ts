@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     selector: 'game-body',
     templateUrl: 'app/game-body.component.html',
-    //styleUrls:['app/game-body.component.css']
+    //styleUrls:['app/main.css', 'app/board.css']
 })
 
 export class GameBodyComponent { 
