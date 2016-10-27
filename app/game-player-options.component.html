@@ -1,29 +1,29 @@
 Game Player Options
-<!--div>
-	{% verbatim %}
+<div>
+	<!--{% verbatim %}-->
 	<div class = 'titles-box'>
-		<span class = 'titles' ng-class="{ 'redText' : optionsCtrl.gameStatus.bunk }">
+		<!-- span class = 'titles' ng-class="{ 'redText' : optionsCtrl.gameStatus.bunk }">
 			<span ng-hide="optionsCtrl.gameStatus.numPlayers===1 || optionsCtrl.gameStatus.gameOver">
 				Player {{optionsCtrl.gameStatus.activePlayer+1}}: 
 			</span>{{optionsCtrl.messageText.info}}
-		</span>
+		</span-->
 	</div>
-	{% endverbatim %}	
+	<!--{% endverbatim %}-->
 	<div class = 'playeroptions outset'>
-		<button class = 'buttons inset activeButtonHighlight' ng-click="optionsCtrl.setPlayers(1)" ng-show="optionsCtrl.gameStatus.playerSetup">
+		<button class = 'buttons inset activeButtonHighlight'>
 			Solo Play
 		</button>
-		<button class = 'buttons inset activeButtonHighlight' ng-click="optionsCtrl.setPlayers(2)" ng-show="optionsCtrl.gameStatus.playerSetup">
+		<button class = 'buttons inset activeButtonHighlight'>
 			Two Players
 		</button>
-		<button class = 'buttons inset' ng-click="optionsCtrl.rollDice()" ng-class="{ 'activeButtonHighlight' : optionsCtrl.gameStatus.roll }" ng-hide="optionsCtrl.gameStatus.playerSetup || optionsCtrl.gameStatus.bunk || optionsCtrl.gameStatus.gameOver">
+		<button class = 'buttons inset'>
 			Roll
 		</button>
-		<button class = 'buttons inset bunkButtonHighlight' ng-show="optionsCtrl.gameStatus.bunk" ng-click="optionsCtrl.bunkPenalty()">
+		<button class = 'buttons inset bunkButtonHighlight'>
 			Clear Bunk
 		</button>
-		<a href='{{ url('homepage') }}'><button class = 'buttons inset activeButtonHighlight' ng-show="optionsCtrl.gameStatus.gameOver">
+		<!--a href='{{ url('homepage') }}'><button class = 'buttons inset activeButtonHighlight' ng-show="optionsCtrl.gameStatus.gameOver">
 			Reset
-		</button></a>
+		</button></a-->
 	</div>
-</div-->
+</div>
